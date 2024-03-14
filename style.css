@@ -1,0 +1,203 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Madimi One", sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+header{
+    position: fixed;
+    right:0;
+    top:0;
+    z-index: 1000;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:33px 9%;
+    background: transparent;
+}
+body{
+    background-image: linear-gradient(to top right ,#38014f 80%, rgba(255, 255, 255, 0.287) );
+    height: 100%;
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: 700;
+    color:white;
+}
+
+.navbar{
+    display: flex;
+}
+
+.navbar a{
+    font-size: 15px;
+    font-weight: 400;
+    border-bottom: solid 2px  transparent;
+    margin-left: 35px;
+    transition: all .850s ease;
+    color:white;
+}
+
+.navbar a:hover{
+    border-bottom: solid 2px  white;
+}
+
+#menu-icon{
+    color:white;
+    font-size: 30px;
+    z-index: 10001;
+    cursor: pointer;
+    display: none;
+}
+
+.dobble{
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    background:transparent ;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 6rem;
+}
+
+.Dimage img{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+}
+
+section{
+    padding:150px;
+}
+
+.dobbletext h5{
+    font-size: 27px;
+    font-weight: 500;
+    color: red;
+    margin-bottom: 10px;
+}
+.dobbletext h1{
+    font-size: 45px;
+    font-weight: 900;
+    color: white;
+    margin: 10px;
+}
+
+.dobbletext p{
+    font-size: 18px;
+    color: white;
+
+}
+
+.dobbletext a{
+    display: inline-block;
+    font-size: 20px;
+    margin: 20px;
+    color: white;
+    border: 1px solid transparent;
+    background-color: #720455;
+    border-radius: 40px;
+    padding: 10px;
+    width: fit-content;
+    transition: 0.7s;
+}
+
+.dobbletext a:hover{
+    box-shadow: -2px 4px 3px 1px white;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.SC{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.SC a{
+    height:200px;
+    background: #C21292;
+    border-radius: 40px 120px;
+    margin:20px;
+    padding:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.SC a:hover{
+    height: 210px;
+    width: auto;
+    box-shadow: -3px 4px 5px 2px white;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.SC a p{
+    font-size: 50px;
+    color: white;
+
+}
+
+.rules{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.rules div{
+    height: fit-content;
+    background: #C21292;
+    margin: 20px;
+    border-radius: 40px;
+    padding: 20px;
+    text-align: center;
+    transition: 0.4s;
+}
+.rules div:hover{
+    box-shadow: -4px 4px 5px 3px white ;
+}
+
+.rules div h1{
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 10px;
+    color: white;
+    border-bottom: dotted 2px rgb(0, 0, 0);
+    width: fit-content;
+}
+
+.member div{
+    
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 100px;
+    color:white;
+    background: #C21292;
+    margin-bottom: 20px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: 0.4s;
+}
+.member div:hover{
+    box-shadow: -5px 5px 5px 4px white;
+}
+
+.member div h1{
+    font-family: sans-serif;
+}
+
+.member div p {
+    color: wheat;
+    font-family: sans-serif;
+}
